@@ -1,0 +1,15 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'desafio-ios-caio-oliveira' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'Alamofire', '~> 5.0'
+  pod 'Kingfisher', '~> 5.0'
+  pod 'SwiftHash'
+  pod 'CryptoSwift', '~> 1.0'
+
+  # Pods for desafio-ios-caio-oliveira
+
+end

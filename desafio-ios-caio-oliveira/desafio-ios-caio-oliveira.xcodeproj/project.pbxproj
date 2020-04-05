@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07952DB62E71C677E969C48F /* Pods_desafio_ios_caio_oliveira.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180B80B659B2FC1281D0C586 /* Pods_desafio_ios_caio_oliveira.framework */; };
 		38A1454B2439791400A5425C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A1454A2439791400A5425C /* AppDelegate.swift */; };
 		38A1454D2439791400A5425C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A1454C2439791400A5425C /* SceneDelegate.swift */; };
 		38A1454F2439791400A5425C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A1454E2439791400A5425C /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		180B80B659B2FC1281D0C586 /* Pods_desafio_ios_caio_oliveira.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_desafio_ios_caio_oliveira.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A145472439791400A5425C /* desafio-ios-caio-oliveira.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "desafio-ios-caio-oliveira.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A1454A2439791400A5425C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38A1454C2439791400A5425C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		38A145532439791500A5425C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38A145562439791500A5425C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38A145582439791500A5425C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		756C0D168C1199276186D25A /* Pods-desafio-ios-caio-oliveira.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-ios-caio-oliveira.release.xcconfig"; path = "Target Support Files/Pods-desafio-ios-caio-oliveira/Pods-desafio-ios-caio-oliveira.release.xcconfig"; sourceTree = "<group>"; };
+		76C65A7318E108F3A2132971 /* Pods-desafio-ios-caio-oliveira.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-ios-caio-oliveira.debug.xcconfig"; path = "Target Support Files/Pods-desafio-ios-caio-oliveira/Pods-desafio-ios-caio-oliveira.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07952DB62E71C677E969C48F /* Pods_desafio_ios_caio_oliveira.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				38A145492439791400A5425C /* desafio-ios-caio-oliveira */,
 				38A145482439791400A5425C /* Products */,
+				E02E25B6182D3871D4288FBD /* Pods */,
+				C4C3AE5C86B070EEF7A08F4A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,24 @@
 			path = "desafio-ios-caio-oliveira";
 			sourceTree = "<group>";
 		};
+		C4C3AE5C86B070EEF7A08F4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				180B80B659B2FC1281D0C586 /* Pods_desafio_ios_caio_oliveira.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E02E25B6182D3871D4288FBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76C65A7318E108F3A2132971 /* Pods-desafio-ios-caio-oliveira.debug.xcconfig */,
+				756C0D168C1199276186D25A /* Pods-desafio-ios-caio-oliveira.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38A1455B2439791500A5425C /* Build configuration list for PBXNativeTarget "desafio-ios-caio-oliveira" */;
 			buildPhases = (
+				34AE95C6BAC3AECF6EAF5FF9 /* [CP] Check Pods Manifest.lock */,
 				38A145432439791400A5425C /* Sources */,
 				38A145442439791400A5425C /* Frameworks */,
 				38A145452439791400A5425C /* Resources */,
+				8EDF631E063621A831E250C9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34AE95C6BAC3AECF6EAF5FF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-desafio-ios-caio-oliveira-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EDF631E063621A831E250C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-desafio-ios-caio-oliveira/Pods-desafio-ios-caio-oliveira-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-desafio-ios-caio-oliveira/Pods-desafio-ios-caio-oliveira-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-desafio-ios-caio-oliveira/Pods-desafio-ios-caio-oliveira-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		38A145432439791400A5425C /* Sources */ = {
@@ -282,6 +351,7 @@
 		};
 		38A1455C2439791500A5425C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76C65A7318E108F3A2132971 /* Pods-desafio-ios-caio-oliveira.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +369,7 @@
 		};
 		38A1455D2439791500A5425C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 756C0D168C1199276186D25A /* Pods-desafio-ios-caio-oliveira.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

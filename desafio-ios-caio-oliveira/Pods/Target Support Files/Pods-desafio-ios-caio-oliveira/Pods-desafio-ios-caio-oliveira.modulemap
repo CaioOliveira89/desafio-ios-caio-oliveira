@@ -1,0 +1,6 @@
+framework module Pods_desafio_ios_caio_oliveira {
+  umbrella header "Pods-desafio-ios-caio-oliveira-umbrella.h"
+
+  export *
+  module * { export * }
+}

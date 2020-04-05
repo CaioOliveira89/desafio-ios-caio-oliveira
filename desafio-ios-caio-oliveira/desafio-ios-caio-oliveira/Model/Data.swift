@@ -8,7 +8,7 @@
 
 import Foundation
 
-class DataBaseObject {
+class Data {
     
     var path : String?
     var extensionThumb : String?

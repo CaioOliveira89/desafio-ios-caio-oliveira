@@ -8,7 +8,7 @@
 
 import Foundation
 
-class DataObject {
+class Hero {
     
     var id : Int?
     var name : String?

@@ -12,12 +12,12 @@ class MarvelObject {
     
     var code : String?
     var status : String?
-    var data : DataObject?
+    var data : Data?
     
     init(dictionary: [String: AnyObject]) {
         
         if let value = dictionary["data"] as? [String: AnyObject] {
-            data = DataObject(dictionary: value)
+            data = Data(dictionary: value)
         }
     }
 }
